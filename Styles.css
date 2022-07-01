@@ -72,6 +72,10 @@ h2 {
     color: #6415FF;
 }
 
+.values__para, .option__para {
+    margin: 0;
+}
+
 /* Navigation */
 
 .nav__links {
@@ -340,4 +344,153 @@ display: flex;
     width: 100%;
     border-style: solid;
     border-color: #CBD5E0;
+}
+
+/* Steps */
+
+.steps__setup {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.steps__img {
+    max-width: 640px;
+    padding-right: 16px;
+}
+
+.steps__right--column {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+}
+
+.steps__subtitle {
+    text-align: left;
+    margin-top: 16px;
+}
+
+.steps__ordered {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.steps__ordered--items {
+    margin-top: 32px;
+    display: flex;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1;
+    color: #CBD5E0;
+}
+
+.steps__listed {
+    margin-left: 24px;
+}
+
+.steps__titles {
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.steps__para {
+    margin: 0;
+    margin-top: 12px;
+    max-width: 320px;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* values */
+
+.values__setup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.values__description {
+    width: 45%;
+}
+
+.values__subtitle {
+    margin-top: 16px;
+    line-height: 1.25;
+    text-align: left;
+}
+
+.values__para {
+    margin-top: 32px;
+}
+
+.values__options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.values__sep {
+    margin: 32px 32px 0 0;
+}
+
+.values__option {
+    margin-top: 32px;
+}
+
+.option__top {
+    display: flex;
+}
+
+.option__icon {
+    padding: 8px;
+    height: 36px;
+    max-width: 36px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border-width: 0px;
+    background-color: #9AE6B4;
+}
+
+.option__title {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #243e63;
+}
+
+.option__para {
+    text-align: left;
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
+    font-size: 16px;
+}
+
+.option__icon--red {
+    color: #feb2b2;
+}
+
+.values__button {
+    margin-top: 48px;
+    display: inline-block;
+    padding: 12px 32px;
+    font-weight: 700;
+}
+
+.values__img {
+    width: 50%;
 }
